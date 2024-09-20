@@ -1,0 +1,17 @@
+env: "local" # local, dev, prod
+http_server:
+  timeout: 30s
+  idle_timeout: 60s
+mongodb:
+  mongodb_uri: mongodb://mongodb:27017
+  mongodb_host: mongodb
+  mongodb_port: 27017
+  mongodb_dbname: go-websocket
+  mongodb_user: admin
+  mongodb_password: admin
+  mongodb_auth_database: admin
+  mongodb_auth_mechanism: SCRAM-SHA-1
+env_state:
+  local: "local"
+  dev: "dev"
+  prod: "prod"

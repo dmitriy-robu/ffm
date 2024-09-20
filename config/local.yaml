@@ -1,0 +1,9 @@
+env: "local" # local, dev, prod
+http_server:
+  timeout: 10m
+  idle_timeout: 10m
+env_state:
+  local: "local"
+  dev: "dev"
+  prod: "prod"
+jwt_secret: 511c7b1c62b94ea63803c127c23d6eafc30eaa60dc9babc7f042496fac1c1772
